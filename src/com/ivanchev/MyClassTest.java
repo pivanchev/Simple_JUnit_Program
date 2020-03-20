@@ -9,8 +9,8 @@ public class MyClassTest {
 	@Test
 	public void test() {
 	 MyClass junit = new MyClass();
-	 String result = junit.Conc("hi", "bye");
-	 assertEquals("hibye",result);
+	 String result = junit.Conc("Plamen", "Ivanchev");
+	 assertEquals("PlamenIvanchev",result);
 	}
 
 }
